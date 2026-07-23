@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "6a61826a552f5dd6a0a4bf4b"
+  },
+  "id_corto": 1,
+  "titulo": "Entrenamiento Técnico",
+  "descripcion": "Busca perfeccionar la ejecución de los movimientos y el dominio del balón de forma individual o colectiva.",
+  "hora": "10:00 AM",
+  "tipo_recurrencia": "Mensual",
+  "dias_semana": "Lunes y Martes",
+  "dia_inicio_mes": "05",
+  "dia_fin_mes": "09",
+  "fecha_especifica": "2026-05-05",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a618295552f5dd6a0a4bf4c"
+  },
+  "id_corto": 2,
+  "titulo": "Pollo",
+  "descripcion": "dwefwf",
+  "hora": "11:00 AM",
+  "tipo_recurrencia": "Semanal",
+  "dias_semana": "wsfsdgdsgfdg",
+  "dia_inicio_mes": "05",
+  "dia_fin_mes": "09",
+  "fecha_especifica": "2026-05-21",
+  "__v": 0
+}]

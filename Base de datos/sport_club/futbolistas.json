@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6a49e1549e74b60f96bcd484"
+  },
+  "id_corto": 1,
+  "nombres": "Alejandro Jesús",
+  "apellidos": "Oliveira Castillo",
+  "cedula": "V-31983093",
+  "fecha_de_nacimiento": "2010-04-02",
+  "lugar_de_nacimiento": "Barquisimeto",
+  "edad": 16,
+  "altura": {
+    "$numberDecimal": "1.72"
+  },
+  "peso": "60 kg",
+  "grado": "4to Año",
+  "institucion": "Colegio San Ignacio",
+  "direccion": "Av. Principal Bolívar",
+  "enfermedad": "",
+  "discapacidad": "",
+  "grupo_sanguineo": "O+",
+  "genero": "Masculino",
+  "posicion_principal": "Delantero",
+  "perfil": "Derecho",
+  "correo_futbolista": "Alejo92@email.com",
+  "categoria": "Sub-17",
+  "fecha_registro": "12-05-2026",
+  "nombre_y_apellido_del_representante": "Daniela Martínez",
+  "cedula_del_representante": "V-8765432",
+  "parentesco_con_la_representante": "Madre",
+  "telefono_de_la_representante": "04121432233",
+  "ocupacion_de_la_representante": "Medico Cirujana",
+  "created_at": {
+    "$date": "2026-07-05T04:45:08.896Z"
+  }
+}]

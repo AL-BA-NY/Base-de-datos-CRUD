@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6a4ad126827eba7f6cbf2904"
+  },
+  "id_corto": 1,
+  "banco_emisor": "Banco Mercantil",
+  "referencia_bancaria": "0222983722",
+  "cedula_pagador": "V-29837772",
+  "telefono_contacto": "04248721100",
+  "concepto": "Pago Mensualidad",
+  "monto_pagado": {
+    "$numberDecimal": "8200.50"
+  },
+  "fecha_registro": {
+    "$date": "2026-07-05T21:48:22.825Z"
+  },
+  "estatus_verificacion": "Operacion en proceso",
+  "banco_destino": "Banco Banesco"
+}]

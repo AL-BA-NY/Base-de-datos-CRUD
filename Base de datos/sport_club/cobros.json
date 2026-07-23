@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6a49cc9f9e74b60f96bcd481"
+  },
+  "id_corto": 1,
+  "concepto": "Pago Mensualidad",
+  "monto_deuda": {
+    "$numberDecimal": "8200.50"
+  },
+  "estado": "Operacion en proceso",
+  "fecha_emision": {
+    "$date": "2026-07-05T03:16:47.347Z"
+  }
+}]
