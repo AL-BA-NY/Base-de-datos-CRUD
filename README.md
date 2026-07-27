@@ -1,20 +1,24 @@
 #Sport Club Management - CRUD App
+
 Una aplicación web completa para la gestión administrativa de un club deportivo ("Sport Club"). Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre seis entidades principales: Calendario, Usuarios, Futbolistas, Pagos, Cobros y Cuentas de Pago.
+
 
 La aplicación cuenta con una API REST robusta construida con Node.js, Express y MongoDB (Mongoose), y una interfaz de usuario frontend premium e interactiva construida en HTML, CSS personalizado y JavaScript Vanilla (asíncrono).
 
 ## Tecnologías Utilizadas
 Backend:
-Node.js: Entorno de ejecución de JavaScript.
-Express: Framework de servidor web para la API REST.
-Mongoose: Modelado de objetos de MongoDB para Node.js, facilitando la validación y consultas a la base de datos.
-dotenv: Manejo de variables de entorno seguras.
-cors: Habilitación de intercambio de recursos de origen cruzado.
-Frontend:
-HTML5 Semántico: Estructura de la aplicación.
-CSS3 Personalizado: Diseño responsivo y estético con un tema oscuro premium ("glassmorphism" moderno, tipografía Outfit e interacciones dinámicas).
-JavaScript Vanilla: Lógica del cliente, manipulación del DOM y peticiones HTTP asíncronas mediante fetch().
-FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
+- Node.js: Entorno de ejecución de JavaScript.
+- Express: Framework de servidor web para la API REST.
+- Mongoose: Modelado de objetos de MongoDB para Node.js, facilitando la validación y consultas a la base de datos.
+- dotenv: Manejo de variables de entorno seguras.
+- cors: Habilitación de intercambio de recursos de origen cruzado.
+
+ Frontend:
+
+-HTML5 Semántico: Estructura de la aplicación.
+-CSS3 Personalizado: Diseño responsivo y estético con un tema oscuro premium ("glassmorphism" moderno, tipografía Outfit e interacciones dinámicas).
+-JavaScript Vanilla: Lógica del cliente, manipulación del DOM y peticiones HTTP asíncronas mediante fetch().
+-FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
 
 
 
