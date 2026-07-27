@@ -1,4 +1,4 @@
-#Sport Club Management - CRUD App
+# Sport Club Management - CRUD App
 
 Una aplicación web completa para la gestión administrativa de un club deportivo ("Sport Club"). Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre seis entidades principales: Calendario, Usuarios, Futbolistas, Pagos, Cobros y Cuentas de Pago.
 
