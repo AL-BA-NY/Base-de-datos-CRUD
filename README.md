@@ -1,9 +1,9 @@
-Sport Club Management - CRUD App
+#Sport Club Management - CRUD App
 Una aplicación web completa para la gestión administrativa de un club deportivo ("Sport Club"). Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre seis entidades principales: Calendario, Usuarios, Futbolistas, Pagos, Cobros y Cuentas de Pago.
 
 La aplicación cuenta con una API REST robusta construida con Node.js, Express y MongoDB (Mongoose), y una interfaz de usuario frontend premium e interactiva construida en HTML, CSS personalizado y JavaScript Vanilla (asíncrono).
 
-🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 Backend:
 Node.js: Entorno de ejecución de JavaScript.
 Express: Framework de servidor web para la API REST.
@@ -19,7 +19,8 @@ FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
 
 
 
-🚀 Instalación y Configuración
+##
+Instalación y Configuración
 1. Prerrequisitos
 Tener instalado Node.js (versión 18 o superior recomendada).
 Tener instalado y en ejecución MongoDB localmente (puerto predeterminado 27017) o contar con una URI de conexión a MongoDB Atlas.
@@ -36,7 +37,8 @@ env
 
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/sport_club
-🏃 Cómo Iniciar la Aplicación
+
+# Cómo Iniciar la Aplicación
 Modo Desarrollo (Recomendado)
 Para iniciar el servidor con reinicio automático al detectar cambios:
 
@@ -51,7 +53,7 @@ bash
 npm start
 Una vez iniciado, abre tu navegador web e ingresa a: http://localhost:3000
 
-📡 Endpoints de la API REST
+## Endpoints de la API REST
 Todos los endpoints retornan e interactúan con formato JSON y están organizados de la siguiente manera:
 
 Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
