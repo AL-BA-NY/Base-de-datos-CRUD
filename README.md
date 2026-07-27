@@ -19,8 +19,7 @@ FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
 
 
 
-##
-Instalación y Configuración
+## Instalación y Configuración
 1. Prerrequisitos
 Tener instalado Node.js (versión 18 o superior recomendada).
 Tener instalado y en ejecución MongoDB localmente (puerto predeterminado 27017) o contar con una URI de conexión a MongoDB Atlas.
@@ -56,7 +55,7 @@ Una vez iniciado, abre tu navegador web e ingresa a: http://localhost:3000
 ## Endpoints de la API REST
 Todos los endpoints retornan e interactúan con formato JSON y están organizados de la siguiente manera:
 
-Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
+# Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
 Calendario	/api/calendario	GET, POST, PUT, DELETE	/api/calendario/:id_corto
 Usuarios	/api/usuarios	GET, POST, PUT, DELETE	/api/usuarios/:id_corto
 Futbolistas	/api/futbolistas	GET, POST, PUT, DELETE	/api/futbolistas/:id_corto
@@ -68,7 +67,7 @@ POST /: Crea un nuevo registro.
 PUT /:id_corto: Actualiza los datos del registro coincidente con el identificador único id_corto.
 DELETE /:id_corto: Remueve permanentemente el registro coincidente con el id_corto.
 
--> Características Especiales del Frontend
+## Características Especiales del Frontend
 Navegación Fluida (Tab-Switching): Panel SPA (Single Page Application) que recarga los listados bajo demanda al cambiar de pestaña en la barra lateral sin recargar la página.
 Modo Edición Inteligente: Al hacer clic en "Editar", el formulario se rellena automáticamente, el botón de guardado cambia a "Actualizar", aparece un botón de "Cancelar" y el input de id_corto se vuelve de solo lectura para preservar la integridad referencial.
 Notificaciones Premium (Toasts): Respuestas visuales integradas (éxitos, advertencias y errores del servidor) que aparecen en la esquina superior derecha con transiciones dinámicas.
