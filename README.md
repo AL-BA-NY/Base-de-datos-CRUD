@@ -20,10 +20,13 @@ Backend:
 
 ### Frontend:
 
--HTML5 Semántico: Estructura de la aplicación.
--CSS3 Personalizado: Diseño responsivo y estético con un tema oscuro premium ("glassmorphism" moderno, tipografía Outfit e interacciones dinámicas).
--JavaScript Vanilla: Lógica del cliente, manipulación del DOM y peticiones HTTP asíncronas mediante fetch().
--FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
+- HTML5 Semántico: Estructura de la aplicación.
+  
+- CSS3 Personalizado: Diseño responsivo y estético con un tema oscuro premium ("glassmorphism" moderno, tipografía Outfit e interacciones dinámicas).
+  
+- JavaScript Vanilla: Lógica del cliente, manipulación del DOM y peticiones HTTP asíncronas mediante fetch().
+  
+- FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
 
 
 
