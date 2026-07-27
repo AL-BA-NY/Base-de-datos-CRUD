@@ -19,7 +19,7 @@ FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
 📂 Estructura del Proyecto
 text
 
-CRUD/
+*CRUD/
 ├── server.js               # Servidor principal (Configuración, Conexión BD y Rutas)
 ├── package.json            # Dependencias y scripts de ejecución
 ├── .env                    # Configuración de variables de entorno
@@ -47,6 +47,9 @@ CRUD/
 │   │   └── usuarioRoutes.js
 │   └── view/               # Frontend de la aplicación
 │       └── index.html      # Interfaz de usuario interactiva y scripts del cliente
+*
+
+
 🚀 Instalación y Configuración
 1. Prerrequisitos
 Tener instalado Node.js (versión 18 o superior recomendada).
