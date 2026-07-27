@@ -16,38 +16,7 @@ CSS3 Personalizado: Diseño responsivo y estético con un tema oscuro premium ("
 JavaScript Vanilla: Lógica del cliente, manipulación del DOM y peticiones HTTP asíncronas mediante fetch().
 FontAwesome: Iconos interactivos para los botones de acción y búsqueda.
 
-📂 Estructura del Proyecto
-text
 
-*CRUD/
-├── server.js               # Servidor principal (Configuración, Conexión BD y Rutas)
-├── package.json            # Dependencias y scripts de ejecución
-├── .env                    # Configuración de variables de entorno
-├── src/
-│   ├── models/             # Modelos y esquemas de Mongoose
-│   │   ├── calendario.js
-│   │   ├── cobros.js
-│   │   ├── cuentas_pago.js
-│   │   ├── futbolistas.js
-│   │   ├── pagos.js
-│   │   └── usuario.js
-│   ├── controllers/        # Controladores que manejan la lógica de negocio
-│   │   ├── calendarioController.js
-│   │   ├── cobrosController.js
-│   │   ├── cuentas_pago.js
-│   │   ├── futbolistasController.js
-│   │   ├── pagosController.js
-│   │   └── usuarioController.js
-│   ├── routes/             # Definición de endpoints de Express
-│   │   ├── calendarioRoutes.js
-│   │   ├── cobrosRoutes.js
-│   │   ├── cuentas_pagosRoutes.js
-│   │   ├── futbolistasRoutes.js
-│   │   ├── pagosRoutes.js
-│   │   └── usuarioRoutes.js
-│   └── view/               # Frontend de la aplicación
-│       └── index.html      # Interfaz de usuario interactiva y scripts del cliente
-*
 
 
 🚀 Instalación y Configuración
@@ -96,7 +65,8 @@ GET /: Obtiene todos los registros de la colección.
 POST /: Crea un nuevo registro.
 PUT /:id_corto: Actualiza los datos del registro coincidente con el identificador único id_corto.
 DELETE /:id_corto: Remueve permanentemente el registro coincidente con el id_corto.
-✨ Características Especiales del Frontend
+
+-> Características Especiales del Frontend
 Navegación Fluida (Tab-Switching): Panel SPA (Single Page Application) que recarga los listados bajo demanda al cambiar de pestaña en la barra lateral sin recargar la página.
 Modo Edición Inteligente: Al hacer clic en "Editar", el formulario se rellena automáticamente, el botón de guardado cambia a "Actualizar", aparece un botón de "Cancelar" y el input de id_corto se vuelve de solo lectura para preservar la integridad referencial.
 Notificaciones Premium (Toasts): Respuestas visuales integradas (éxitos, advertencias y errores del servidor) que aparecen en la esquina superior derecha con transiciones dinámicas.
