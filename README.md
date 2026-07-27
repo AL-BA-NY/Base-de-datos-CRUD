@@ -8,17 +8,17 @@ La aplicación cuenta con una API REST robusta construida con Node.js, Express y
 ## Tecnologías Utilizadas
 Backend:
 - Node.js: Entorno de ejecución de JavaScript.
-- 
+  
 - Express: Framework de servidor web para la API REST.
-- 
+  
 - Mongoose: Modelado de objetos de MongoDB para Node.js, facilitando la validación y consultas a la base de datos.
-- 
+  
 - dotenv: Manejo de variables de entorno seguras.
-- 
+  
 - cors: Habilitación de intercambio de recursos de origen cruzado.
 
 
- Frontend:
+### Frontend:
 
 -HTML5 Semántico: Estructura de la aplicación.
 -CSS3 Personalizado: Diseño responsivo y estético con un tema oscuro premium ("glassmorphism" moderno, tipografía Outfit e interacciones dinámicas).
