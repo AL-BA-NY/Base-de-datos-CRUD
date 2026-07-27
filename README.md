@@ -30,9 +30,12 @@ Backend:
 
 ## Instalación y Configuración
 1. Prerrequisitos
+   
    Tener instalado Node.js (versión 18 o superior recomendada).
+   
    Tener instalado y en ejecución MongoDB localmente (puerto predeterminado 27017) o contar con una URI de conexión a MongoDB Atlas.
-2. Instalación de Dependencias
+   
+3. Instalación de Dependencias
 Abre una terminal en la raíz del proyecto y ejecuta:
 
 bash
@@ -44,7 +47,7 @@ Crea o edita el archivo .env en la raíz del proyecto con la siguiente configura
 env
 
 PORT=3000
-MONGODB_URI=mongodb://localhost:27017/sport_club(coloque correctamente la dirección localhost de su base de datos)
+MONGODB_URI=mongodb://localhost:27017/sport_club
 
 # Cómo Iniciar la Aplicación
 Modo Desarrollo (Recomendado)
