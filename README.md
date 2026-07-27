@@ -57,8 +57,11 @@ Todos los endpoints retornan e interactúan con formato JSON y están organizado
 
 ### Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
 - Calendario	/api/calendario	GET, POST, PUT, DELETE	/api/calendario/:id_corto
+  
 - Usuarios	/api/usuarios	GET, POST, PUT, DELETE	/api/usuarios/:id_corto
+  
 - Futbolistas	/api/futbolistas	GET, POST, PUT, DELETE	/api/futbolistas/:id_corto
+  
 - Pagos	/api/pagos	GET, POST, PUT, DELETE	/api/pagos/:id_corto
 - Cobros	/api/cobros	GET, POST, PUT, DELETE	/api/cobros/:id_corto
 - Cuentas de Pago	/api/cuentas-pago	GET, POST, PUT, DELETE	/api/cuentas-pago/:id_corto
