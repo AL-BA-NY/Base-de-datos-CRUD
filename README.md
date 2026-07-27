@@ -55,7 +55,7 @@ Una vez iniciado, abre tu navegador web e ingresa a: http://localhost:3000
 ## Endpoints de la API REST
 Todos los endpoints retornan e interactúan con formato JSON y están organizados de la siguiente manera:
 
-# Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
+## Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
 Calendario	/api/calendario	GET, POST, PUT, DELETE	/api/calendario/:id_corto
 Usuarios	/api/usuarios	GET, POST, PUT, DELETE	/api/usuarios/:id_corto
 Futbolistas	/api/futbolistas	GET, POST, PUT, DELETE	/api/futbolistas/:id_corto
@@ -66,6 +66,7 @@ GET /: Obtiene todos los registros de la colección.
 POST /: Crea un nuevo registro.
 PUT /:id_corto: Actualiza los datos del registro coincidente con el identificador único id_corto.
 DELETE /:id_corto: Remueve permanentemente el registro coincidente con el id_corto.
+
 
 ## Características Especiales del Frontend
 Navegación Fluida (Tab-Switching): Panel SPA (Single Page Application) que recarga los listados bajo demanda al cambiar de pestaña en la barra lateral sin recargar la página.
