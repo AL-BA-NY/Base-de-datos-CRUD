@@ -3,7 +3,7 @@
 Una aplicación web completa para la gestión administrativa de un club deportivo ("Sport Club"). Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre seis entidades principales: Calendario, Usuarios, Futbolistas, Pagos, Cobros y Cuentas de Pago.
 
 
-La aplicación cuenta con una API REST robusta construida con Node.js, Express y MongoDB (Mongoose), y una interfaz de usuario frontend premium e interactiva construida en HTML, CSS personalizado y JavaScript Vanilla (asíncrono).
+La aplicación cuenta con una API REST robusta construida con Node.js, Express y MongoDB (Mongoose), y una interfaz de usuario frontend e interactiva construida en HTML, CSS personalizado y JavaScript Vanilla (asíncrono).
 
 ## Tecnologías Utilizadas
 Backend:
