@@ -72,7 +72,8 @@ Todos los endpoints retornan e interactúan con formato JSON y están organizado
 
 
 ## Características Especiales del Frontend
-Navegación Fluida (Tab-Switching): Panel SPA (Single Page Application) que recarga los listados bajo demanda al cambiar de pestaña en la barra lateral sin recargar la página.
-Modo Edición Inteligente: Al hacer clic en "Editar", el formulario se rellena automáticamente, el botón de guardado cambia a "Actualizar", aparece un botón de "Cancelar" y el input de id_corto se vuelve de solo lectura para preservar la integridad referencial.
-Notificaciones Premium (Toasts): Respuestas visuales integradas (éxitos, advertencias y errores del servidor) que aparecen en la esquina superior derecha con transiciones dinámicas.
-Filtro de Búsqueda Activo: Permite filtrar visualmente la tabla por id_corto con soporte para tecla "Enter". Si se vacía el buscador, la tabla vuelve a desplegar todos los registros existentes de manera automática.
+
+- Navegación Fluida (Tab-Switching): Panel SPA (Single Page Application) que recarga los listados bajo demanda al cambiar de pestaña en la barra lateral sin recargar la página.
+- Modo Edición Inteligente: Al hacer clic en "Editar", el formulario se rellena automáticamente, el botón de guardado cambia a "Actualizar", aparece un botón de "Cancelar" y el input de id_corto se vuelve de solo  lectura para preservar la integridad referencial.
+-Notificaciones Premium (Toasts): Respuestas visuales integradas (éxitos, advertencias y errores del servidor) que aparecen en la esquina superior derecha con transiciones dinámicas.
+- Filtro de Búsqueda Activo: Permite filtrar visualmente la tabla por id_corto con soporte para tecla "Enter". Si se vacía el buscador, la tabla vuelve a desplegar todos los registros existentes de manera automática.
