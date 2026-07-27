@@ -55,7 +55,7 @@ Una vez iniciado, abre tu navegador web e ingresa a: http://localhost:3000
 ## Endpoints de la API REST
 Todos los endpoints retornan e interactúan con formato JSON y están organizados de la siguiente manera:
 
-## Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
+### Entidad	Ruta Base	Métodos Disponibles	Parámetro Dinámico
 Calendario	/api/calendario	GET, POST, PUT, DELETE	/api/calendario/:id_corto
 Usuarios	/api/usuarios	GET, POST, PUT, DELETE	/api/usuarios/:id_corto
 Futbolistas	/api/futbolistas	GET, POST, PUT, DELETE	/api/futbolistas/:id_corto
